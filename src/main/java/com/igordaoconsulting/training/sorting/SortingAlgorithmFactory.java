@@ -27,7 +27,7 @@ public class SortingAlgorithmFactory {
 	}
 
 	public SortingAlgorithm<int[]> heapSort(int[] unsorted) {
-		throw new RuntimeException("Not Implemetend Yet!");
+		return new HeapSort(unsorted);
 	}
 
 	public SortingAlgorithm<int[]> quickSort(int[] unsorted) {
