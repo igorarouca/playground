@@ -5,7 +5,6 @@ import java.util.Random;
 
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import com.igordaoconsulting.training.util.ArrayUtils;
@@ -58,6 +57,12 @@ public class SortingTest {
 	@Test
 	public void heapSort() {
 		ArrayUtils.heapSort(unsorted);
+		assertSorted(unsorted);
+	}
+
+	@Test
+	public void countingSort() {
+		ArrayUtils.countingSort(unsorted);
 		assertSorted(unsorted);
 	}
 

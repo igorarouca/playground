@@ -35,7 +35,7 @@ public class SortingAlgorithmFactory {
 	}
 
 	public SortingAlgorithm<int[]> countingSort(int[] unsorted) {
-		throw new RuntimeException("Not Implemetend Yet!");
+		return new CountingSort(unsorted);
 	}
 
 	public SortingAlgorithm<int[]> radixSort(int[] unsorted) {

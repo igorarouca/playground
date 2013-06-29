@@ -38,7 +38,7 @@ public class ArrayUtils {
 
 	/** Worst-case Θ(k + n); Average-case Θ(k + n) */
 	public static void countingSort(int[] unsorted) {
-		throw new RuntimeException("Not Implemetend Yet!");
+		ALGORITHM_FACTORY.countingSort(unsorted).run();
 	}
 
 	/** Worst-case Θ(d(n + k)); Average-case Θ(d(n + k) */
