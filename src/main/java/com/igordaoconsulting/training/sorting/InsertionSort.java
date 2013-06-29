@@ -1,8 +1,8 @@
 package com.igordaoconsulting.training.sorting;
 
-public class InsertionSort extends SortingAlgorithmUsingIntArray {
+class InsertionSort extends SortingAlgorithmUsingIntArray {
 
-	public InsertionSort(int[] input) {
+	InsertionSort(int[] input) {
 		super(input);
 	}
 
@@ -10,7 +10,7 @@ public class InsertionSort extends SortingAlgorithmUsingIntArray {
 		for (int i = 1; i < input.length; ++i) {
 			int key = input[i];
 			int j = i - 1;
-			while (j > 0 && input[j] > key) {
+			while (j >= 0 && input[j] > key) {
 				input[j + 1] = input[j];
 				--j;
 			}
