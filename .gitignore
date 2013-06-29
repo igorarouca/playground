@@ -1,0 +1,6 @@
+target
+.settings
+*.swp
+.idea
+build.properties
+META-INF
