@@ -1,4 +1,4 @@
-package com.igordaoconsulting.training;
+package com.igordaoconsulting.training.util;
 
 import java.util.ArrayList;
 

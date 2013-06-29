@@ -1,4 +1,4 @@
-package com.igordaoconsulting.training;
+package com.igordaoconsulting.training.util;
 
 import com.igordaoconsulting.training.sorting.SortingAlgorithmFactory;
 
@@ -28,7 +28,7 @@ public class ArrayUtils {
 
 	/** Worst-case Θ(n log n) */
 	public static void heapSort(int[] unsorted) {
-		throw new RuntimeException("Not Implemetend Yet!");
+		ALGORITHM_FACTORY.heapSort(unsorted).run();
 	}
 
 	/** Worst-case Θ(nˆ2); Expected-case Θ(n log n) */

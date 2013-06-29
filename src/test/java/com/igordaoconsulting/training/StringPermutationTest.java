@@ -7,7 +7,7 @@ import org.apache.commons.collections.CollectionUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.igordaoconsulting.training.StringUtils;
+import com.igordaoconsulting.training.util.StringUtils;
 
 public class StringPermutationTest {
 
